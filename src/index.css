@@ -1,0 +1,11 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  --font-googleGugi:"giigleGugi";
+  --googleNotoSans:"googleNotoSans";
+}
+
+@font-face {
+  font-family: "googleNotoSans";
+  src: url(./assets/Noto_Sans_KR/NotoSansKR-Black.otf);
+}

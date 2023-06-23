@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  max-width: 1440px;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+
+.darkmode { 
+  background: #000;
+  color: #fff;
+}
+
+.darkBtn {
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  background: #ddd;
+}
+
+.searchBtn {
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+}
+
+.inputText {
+  margin-top: 10px;
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid #b4b4b4;
+}
